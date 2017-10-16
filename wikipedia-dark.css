@@ -816,4 +816,9 @@
   {
     color: #777 !important;
   }
+  
+  div.navpopup
+  {
+    background-color: #333;
+  }
 }
