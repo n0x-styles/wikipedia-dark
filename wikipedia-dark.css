@@ -667,6 +667,10 @@
         padding: 10px !important;
         font-size: 14px !important;
     }
+    
+    .shortcutbox {
+        background: #333 !important;
+    }
 
     .editOptions {
         background: #222 !important;
