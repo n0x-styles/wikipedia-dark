@@ -492,11 +492,11 @@
     }
 
     #js-lang-list-button {
-        background-color: #444 !important;
+        background-color: #333 !important;
     }
 
     .app-badges {
-        background-color: #2e2e2e !important;
+        background-color: #222 !important;
     }
 
     .wikitable,
@@ -851,22 +851,26 @@
     }
 
     .lang-list-button {
-        outline-color: #222;
+        outline-color: #222 !important;
     }
 
     .lang-list-content {
-        background-color: #444;
+        background-color: #444 !important;
     }
 
     .bookshelf span {
-        background-color: #444;
+        background-color: #444 !important;
     }
 
     .lang-list-container {
-        background-color: #333;
+        background-color: #333 !important;
     }
 
-    .jsl10n localized-slogan {
-        color: #777;
+    .localized-slogan {
+        color: #555 !important;
+    }
+
+    .svg-Wikimedia-logo_black {
+        -webkit-filter: invert(100%);
     }
 }
