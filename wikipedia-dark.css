@@ -844,9 +844,29 @@
     .diff-context {
         color: #999 !important;
     }
-    
+
     td.diff-otitle,
     td.diff-ntitle {
         background-color: #333 !important;
+    }
+
+    .lang-list-button {
+        outline-color: #222;
+    }
+
+    .lang-list-content {
+        background-color: #444;
+    }
+
+    .bookshelf span {
+        background-color: #444;
+    }
+
+    .lang-list-container {
+        background-color: #333;
+    }
+
+    .jsl10n localized-slogan {
+        color: #777;
     }
 }
