@@ -268,7 +268,8 @@
     }
 
     .mwe-math-fallback-image-inline img,
-    .mwe-math-element img {
+    .mwe-math-element img,
+    .nowrap img {
         filter: invert(100%);
     }
 
