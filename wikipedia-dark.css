@@ -269,7 +269,7 @@
 
     .mwe-math-fallback-image-inline img,
     .mwe-math-element img,
-    .nowrap img {
+    img[src*="LaTeX"] {
         filter: invert(100%);
     }
 
