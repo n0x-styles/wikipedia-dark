@@ -485,6 +485,7 @@
     #mp-right div,
     #mp-topbanner,
     .list,
+    .template-documentation,
     .collapsible th,
     .autocollapse th {
         color: #ddd !important;
