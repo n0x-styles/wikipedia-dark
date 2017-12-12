@@ -875,4 +875,15 @@
     .svg-Wikimedia-logo_black {
         -webkit-filter: invert(100%);
     }
+
+    /* Preferences */
+
+    .client-js #preferences {
+        border: 1px solid #c8ccd1 !important;
+        background-color: #444 !important;
+    }
+
+    .client-js #preferences legend {
+        color: #ededed;
+    }
 }
