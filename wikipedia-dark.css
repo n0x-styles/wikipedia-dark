@@ -222,6 +222,26 @@
         border: 1px solid #347Bff !important;
     }
 
+    /* Media Viewer, image preview */
+
+    .mw-mmv-above-fold  {
+        background-color: #333 !important;
+    }
+
+    .mw-mmv-image-metadata {
+        background-color: #111 !important;
+    }
+
+    .mw-mmv-dialog,
+    .mw-mmv-dialog-down-arrow,
+    .mw-mmv-download-attribution,
+    .mw-mmv-download-pane,
+    .mw-mmv-download-pane :hover {
+        background-color: #333 !important;
+    }
+
+    /* End */
+
     #wpSave,
     #wpPreview,
     #wpDiff {
