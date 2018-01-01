@@ -259,14 +259,19 @@
     #wpDiff:hover {
         color: rgba(52, 123, 255, 0.5) !important;
     }
+
     /* Search */
 
     #simpleSearch {
+        position: relative;
+        overflow: hidden;
         background: transparent !important;
         border-color: #666 !important;
     }
 
     #searchInput {
+        position: absolute;
+        height: 100%;
         color: #ddd !important;
         background: transparent !important;
     }
