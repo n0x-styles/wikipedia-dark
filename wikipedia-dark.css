@@ -116,7 +116,7 @@
         border-collapse: collapse !important;
         padding: 5px !important;
         /* color: #333 !important; */
-        
+
         background-color: #444 !important;
         /* With this feature enabled, you loose visibility on colored table cells */
     }
@@ -259,14 +259,19 @@
     #wpDiff:hover {
         color: rgba(52, 123, 255, 0.5) !important;
     }
+
     /* Search */
 
     #simpleSearch {
+        position: relative;
+        overflow: hidden;
         background: transparent !important;
         border-color: #666 !important;
     }
 
     #searchInput {
+        position: absolute;
+        height: 100%;
         color: #ddd !important;
         background: transparent !important;
     }
@@ -689,7 +694,7 @@
         padding: 10px !important;
         font-size: 14px !important;
     }
-    
+
     .shortcutbox {
         background: #333 !important;
     }
@@ -815,8 +820,8 @@
     #footer-info-lastmod {
         color: #777 !important;
     }
-	
-	.oo-ui-window-frame,
+
+    .oo-ui-window-frame,
     .oo-ui-popupWidget-popup {
         color: #ddd !important;
         background-color: #444 !important;
@@ -905,5 +910,17 @@
 
     .client-js #preferences legend {
         color: #ededed;
+    }
+
+    /* German main page */
+
+    #hauptseite h2 {
+        background: inherit;
+        border: none;
+    }
+
+    #hauptseite .inhalt {
+        background: inherit;
+        border: none;
     }
 }
