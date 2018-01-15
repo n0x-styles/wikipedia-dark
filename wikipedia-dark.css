@@ -8,7 +8,8 @@
         background-color: #222 !important;
     }
 
-    a {
+    a,
+    .tocnumber {
         color: #608dff !important;
         text-decoration: none;
     }
@@ -69,7 +70,8 @@
     .portal-column-left span,
     body.ns-100 .mw-body-content h2,
     .mw_metadata th,
-    .tracklist th {
+    .tracklist th,
+    #mp-tfl-h2 {
         color: #ddd !important;
         background-color: #444 !important;
     }
@@ -274,6 +276,19 @@
         height: 100%;
         color: #ddd !important;
         background: transparent !important;
+    }
+    
+    /* Advanced search */
+    
+    input#ooui-1.oo-ui-inputWidget-input {
+        color: #ddd !important;
+        background: transparent !important;
+    }
+    
+    #mw-searchoptions,
+    #searchText {
+        color: #ddd !important;
+        background-color: #444 !important;
     }
 
     .mw-ui-input {
