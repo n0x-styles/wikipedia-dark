@@ -927,7 +927,7 @@
         color: #ededed;
     }
 
-    /* German main page */
+    /* German version */
 
     #hauptseite h2 {
         background: inherit;
@@ -937,5 +937,26 @@
     #hauptseite .inhalt {
         background: inherit;
         border: none;
+    }
+    
+    #qualitaetssicherungstext {
+        background-color: #444 !important;
+        border: 1px solid #666 !important;
+    }
+
+    /* French version */
+
+    #accueil_2017_en-tete {
+        background-image: none !important;
+    }
+
+    .bandeau-section {
+        background-color: #333 !important;
+        border: 1px solid #666 !important;
+     }
+
+    .autres-projets {
+        background-color: #333 !important;
+        border: 1px solid #666 !important;
     }
 }
