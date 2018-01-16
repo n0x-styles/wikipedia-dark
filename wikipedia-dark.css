@@ -124,7 +124,8 @@
     }
 
     ul,
-    li {
+    li,
+    caption {
         background: transparent !important;
         border: 0px !important;
         line-height: 1.8 !important;
