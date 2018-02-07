@@ -107,6 +107,10 @@
         color: #068dff;
     }
 
+    .mw-notification {
+        background-color: #333 !important;
+    }
+
     #Example {
         color: #ddd !important;
     }
