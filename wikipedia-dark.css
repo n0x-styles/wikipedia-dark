@@ -916,6 +916,10 @@
         -webkit-filter: invert(100%);
     }
 
+    .hll {
+        background-color: #383838 !important;
+    }
+
     /* Preferences */
 
     .client-js #preferences {
