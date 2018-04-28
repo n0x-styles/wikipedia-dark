@@ -920,6 +920,10 @@
         -webkit-filter: invert(100%);
     }
 
+    .hll {
+        background-color: #2B2B2B !important;
+    }
+
     /* Central Notice Banner */
 
     .cnotice {
