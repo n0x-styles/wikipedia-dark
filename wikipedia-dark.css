@@ -107,6 +107,10 @@
         color: #068dff;
     }
 
+    .mw-notification {
+        background-color: #333 !important;
+    }
+
     #Example {
         color: #ddd !important;
     }
@@ -914,6 +918,18 @@
 
     .svg-Wikimedia-logo_black {
         -webkit-filter: invert(100%);
+    }
+
+    /* Central Notice Banner */
+
+    .cnotice {
+        background-color: #333 !important;
+        border: 1px solid #444;
+    }
+
+    .cnotice-toggle-box {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
     }
 
     /* Preferences */
