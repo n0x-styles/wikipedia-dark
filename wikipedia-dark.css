@@ -47,6 +47,15 @@
         color: #ccc !important;
     }
 
+    [style*="color: black"] {
+        color: white !important;
+    }
+
+    [style*="background:#f8f9fa"] {
+        background: #2d2c2b !important;
+        border: none !important;
+    }
+
     .reflist,
     .refbegin {
         background-color: #282828 !important;
@@ -293,6 +302,14 @@
     #searchText {
         color: #ddd !important;
         background-color: #444 !important;
+    }
+
+    .mw-ui-vform .warning {
+        background-color: #664a00 !important;
+    }
+
+    .mw-ui-vform .error {
+        background-color: #5c0000 !important;
     }
 
     .mw-ui-input {
@@ -815,6 +832,10 @@
         font-size: 16px !important;
         font-weight: 700 !important;
         background: transparent !important;
+    }
+
+    .NavContent {
+        background-color: #ffffff1a !important;
     }
 
     .Boxmerge {
