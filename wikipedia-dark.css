@@ -19,8 +19,8 @@
         text-decoration: underline;
     }
   
-    .b, div {
-    color : white;
+    .b, div, th {
+    color : white !important;
     }
 
     h1 {
