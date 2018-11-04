@@ -945,6 +945,14 @@
         background-color: #2B2B2B !important;
     }
 
+    kbd
+{background-image: -webkit-linear-gradient(top, #333, #111, #333)!important;
+    -webkit-box-shadow: 0.1em 0.2em 0.2em #111!important;
+    border: 1px solid #555!important;}
+
+div[style*="background:#ccc"]
+{background:#333!important}
+    
     /* Central Notice Banner */
 
     .cnotice {
