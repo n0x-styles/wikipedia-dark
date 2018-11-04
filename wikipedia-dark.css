@@ -624,7 +624,7 @@
     .homonymie,
     .plainlinks {
         color: #eee !important;
-        background-color: #333 !important;
+        background-color: transparent!important;
     }
 
     .quotebox {
@@ -964,6 +964,9 @@ div[style*="background:#ccc"]
         -webkit-filter: invert(100%);
         filter: invert(100%);
     }
+    
+    div[style*="background:#FCFCFC"]
+{background:#263F1E!important}
 
     /* Preferences */
 
