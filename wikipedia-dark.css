@@ -28,7 +28,7 @@
         font-family: 'Arial' !important;
         font-weight: 700 !important;
         font-size: 36px !important;
-        color: #eee !important;
+        color: #fff !important;
     }
 
     h2 {
@@ -75,8 +75,8 @@
 
     p {
         font-weight: 300 !important;
-        line-height: 1.9 !important;
-        color: #fff !important;
+        line-height: 1.7 !important;
+        color: #ddd !important;
     }
 
     .portal-column-right span,
