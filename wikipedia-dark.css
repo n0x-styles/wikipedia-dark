@@ -18,6 +18,10 @@
         color: #637ab5 !important;
         text-decoration: underline;
     }
+  
+    .b, div, th {
+    color : white !important;
+    }
 
     h1 {
         border: 0px !important;
