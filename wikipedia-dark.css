@@ -156,7 +156,8 @@
         font-size: 14px !important;
     }
 
-    .referencetooltip {
+    .referencetooltip,
+    .rt-tooltipContent {
         background-color: #282828 !important;
     }
 
@@ -581,6 +582,9 @@
     #mp-left h2,
     #mp-right h2,
     #mp-bottom h2,
+    #mp-other,
+    #mp-sister,
+    #mp-lang 
     .navbox-abovebelow,
     .group {
         color: #ddd !important;
