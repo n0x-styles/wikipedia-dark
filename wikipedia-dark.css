@@ -999,5 +999,13 @@
     .autres-projets {
         background-color: #333 !important;
         border: 1px solid #666 !important;
+    /* Minor Fixes */
+.app-badges .footer-sidebar-content {
+    background-color: #222222 !important;
+}
+    .mw-mmv-info-box {
+    background-color: #111 !important;
+}
+        
     }
 }
