@@ -1,3 +1,16 @@
+/* ==UserStyle==
+@name         Wikipedia Dark Material Design
+@version      1.0.0
+@description  Dark Wikipedia theme. Get a cleaner, easier-to-read wiki at night to focus on content while browsing a beautiful material design website.
+@namespace    http://www.w3.org/1999/xhtml
+@author       n0x
+@homepageURL  https://github.com/n0x-styles/wikipedia-dark
+@supportURL   https://github.com/n0x-styles/wikipedia-dark/issues
+@updateURL    https://raw.githubusercontent.com/n0x-styles/wikipedia-dark/master/wikipedia-dark.user.css
+@license      CC0
+@preprocessor default
+==/UserStyle== */
+
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain('wikipedia.org')
