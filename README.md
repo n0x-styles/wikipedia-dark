@@ -1,4 +1,4 @@
-# Wikipedia Deep DArk Theme
+# Wikipedia Deep Dark Theme
 CSS style for [wikipedia.org](https://en.wikipedia.org/wiki/Main_Page)
 
 ## About
