@@ -435,6 +435,10 @@
         background-image: none !important;
     }
 
+    .equation-box {
+        background-color: #333 !important;
+    }
+
     .link-box em,
     .link-box small {
         color: #bbb !important;
