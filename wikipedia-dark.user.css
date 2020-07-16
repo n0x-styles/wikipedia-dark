@@ -163,6 +163,11 @@
         font-weight: 300 !important;
     }
 
+    ol.references li:target,
+    sup.reference:target {
+        background-color: #444 !important;
+    }
+
     li span {
         background: transparent !important;
         border: 0px !important;
