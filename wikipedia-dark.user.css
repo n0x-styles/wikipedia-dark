@@ -362,8 +362,20 @@
         font-size: 16px !important;
     }
 
-    a.mwe-popups-extract::after {
-        background: #333 !important;
+    .mwe-popups-extract:after {
+        background: transparent !important;
+    }
+
+    .mwe-popups-settings-icon:hover {
+        background-color: #222 !important;
+    }
+
+    .mwe-popups.flipped-y:after {
+        border-top: 11px solid #333 !important;
+    }
+
+    .mwe-popups.mwe-popups-no-image-pointer:after {
+        border-bottom: 11px solid #333 !important;
     }
 
     .mw-headline {
