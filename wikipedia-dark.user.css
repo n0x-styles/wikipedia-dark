@@ -92,6 +92,10 @@
         color: #ddd !important;
     }
 
+    ul {
+	    list-style-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjUiIGhlaWdodD0iMTMiPjxjaXJjbGUgY3g9IjIuNSIgY3k9IjkiIHI9IjIuNSIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==") !important;
+    }
+
     .portal-column-right span,
     .portal-column-left span,
     body.ns-100 .mw-body-content h2,
