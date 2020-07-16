@@ -913,9 +913,29 @@
         -webkit-filter: invert(100%);
     }
 
+    .oo-ui-tabSelectWidget-framed, .mw-prefs-buttons {
+        background-color: #333 !important;
+    }
+
+    .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
+        background-color: #444 !important;
+    }
+
     .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
-        background-color: #222 !important;
-        border-color: #222 !important
+        background-color: #068dff !important;
+        color: #fff !important;
+    }
+
+    .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+        background-color: #333 !important;
+    }
+
+    .oo-ui-widget.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-decoratedOptionWidget.oo-ui-menuOptionWidget .oo-ui-labelElement-label {
+        color: #333 !important;
+    }
+
+    #mw-prefs-restoreprefs .oo-ui-labelElement-label {
+        color: #cd5b45 !important;
     }
 
     div.mw-revslider-revision-wrapper-down.mw-revslider-revision-hovered {
@@ -1003,7 +1023,7 @@ div[style*="background:#ccc"]
 		  It looks fine I guess, but a better solution should be found*/
 		filter:invert(0.8);}
 	.oo-ui-textInputWidget .oo-ui-inputWidget-input{
-		background-color:#444;
+		background-color:#333;
 		color:#FFF;}
 	.warningbox{
 		background-color:#443;}
