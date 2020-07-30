@@ -110,8 +110,7 @@
     }
 
     .toctogglespan {
-        float: right !important;
-        margin-top: 11px !important;
+        margin-left: 10px !important;
     }
 
     .toctogglespan::before, .toctogglespan::after {
@@ -160,6 +159,10 @@
         color: #068dff;
     }
 
+    .mw-highlight .no {
+        color: #dd0000;
+    }
+
     .mw-notification {
         background-color: #333 !important;
     }
@@ -170,9 +173,7 @@
 
     #disambigbox {
         width: 99% !important;
-        border-width: 1px 0 1px 0 !important;
-        border-style: solid !important;
-        border-color: #777 !important;
+        border: none !important;
     }
 
     .hlist.hlist-separated.inline {
@@ -198,7 +199,6 @@
         border: 0 !important;
         line-height: 1.8 !important;
         font-size: 14px !important;
-        font-weight: 300 !important;
     }
 
     ol.references li:target,
@@ -356,7 +356,7 @@
     }
 
     #uls-display-settings-language-tab.mw-ui-pressed, #uls-display-settings-fonts-tab.mw-ui-pressed, #languagesettings-panels .mw-ui-pressed {
-        background-color: #068dff !important;
+        background-color: #608dff !important;
         color: #fff !important;
     }
 
@@ -369,13 +369,13 @@
     }
     /* End */
 
-    /* More Languages modal */
+    /* More Languages button and modal */
     .mw-interlanguage-selector.mw-ui-button {
         color: #608dff !important;
-        background-color: #333 !important;
+        background: #333 url(/w/extensions/UniversalLanguageSelector/resources/images/compact-links-trigger.svg?ebb8e) no-repeat left 4px center !important;
         border: 0 !important;
         text-align: center !important;
-        padding: 4px 20px;
+        padding: 4px 8px 4px 26px;
     }
 
     .interlanguage-uls-menu .uls-lcd, .interlanguage-uls-menu #search, .uls-no-found-more, .callout--languageselection .uls-lcd, .callout--languageselection #search {
@@ -408,8 +408,11 @@
         color: rgba(52, 123, 255, 0.5) !important;
     }
 
-    /* Search */
+    .oo-ui-buttonElement-button {
+         border-color: #777 !important;
+    }
 
+    /* Search */
     #simpleSearch {
         position: relative;
         overflow: hidden;
@@ -422,6 +425,7 @@
         color: #ddd !important;
         background: transparent !important;
     }
+    /* End */
 
     /* Advanced search */
 
@@ -438,12 +442,16 @@
     }
 
     .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
-        background-color: #068dff !important;
+        background-color: #608dff !important;
         color: #fff !important;
     }
 
     .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button[aria-controls^="mw-advancedSearch-expandable-"] {
         background-color: #444 !important;
+    }
+
+    .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+        background-color: #333 !important;
     }
 
     .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-tagItemWidget {
@@ -467,9 +475,6 @@
         color: #fff !important;
     }
 
-    .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
-        background-color: #333 !important;
-    }
 
     .oo-ui-dropdownInputWidget.oo-ui-widget-enabled {
         background-color: #333 !important;
@@ -589,7 +594,7 @@
 
     .mw-content-ltr pre {
         font-family: "Courier New", Lucida Console, sans-serif !important;
-        color: #a5c4ff !important;
+        background-color: #333 !important;
     }
 
     .mw-parser-output #mp-other-lower {
@@ -877,8 +882,6 @@
     .wikitable rh,
     .plainrowheaders,
     .nounderlines,
-    .wikitable tr,
-    .wikitable td,
     .navbox-title,
     .navbox-group,
     .navbox-odd,
@@ -889,7 +892,7 @@
     #mp-bottom h2,
     .navbox-abovebelow,
     .group {
-        color: #ddd !important;
+        color: #eee !important;
         background-color: #444 !important;
     }
 
@@ -935,6 +938,14 @@
     .plainlinks {
         color: #eee !important;
         background-color: transparent !important;
+    }
+
+    td.table-no {
+        background-color: #7d3636 !important;
+    }
+
+    td.table-yes {
+        background-color: #437043 !important;
     }
 
     .quotebox {
@@ -1005,12 +1016,6 @@
         color: #ddd !important;
     }
 
-/*
-    .ambox-image,
-    .mbox-image {
-        display: none;
-    }
-*/
     #request_for_deletion,
     .ambox-serious {
         background: rgba(255, 0, 0, 0.1) !important;
@@ -1171,11 +1176,6 @@
         background-color: #444 !important;
     }
 
-/*
-    .oo-ui-buttonElement-button .oo-ui-iconElement-icon {
-        -webkit-filter: invert(100%);
-    }
-*/
 
     #mw-prefs-restoreprefs .oo-ui-labelElement-label {
         color: #cd5b45 !important;
@@ -1290,7 +1290,7 @@
 
     .wikiEditor-ui-toolbar .tabs span.tab a,
     .wikiEditor-ui-toolbar .tabs span.tab a:visited {
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m5 4 4 4-4 4 1 1 5-5-5-5z' fill='%23ddd'/%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m5 4 4 4-4 4 1 1 5-5-5-5z' fill='%23ddd'/%3E%3C/svg%3E");
     }
 
     .mw-editform #wpTextbox1 {
@@ -1338,8 +1338,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     /* Preferences */
     .client-js #preferences {
-        border: 1px solid #c8ccd1 !important;
+        border: 1px solid #888 !important;
         background-color: #444 !important;
+    }
+
+    .mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed {
+        border-color: #888 !important;
     }
 
     .client-js #preferences legend {
