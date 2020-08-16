@@ -1362,6 +1362,23 @@ div[style*="background:#FCFCFC"] {
     color: #ededed;
 }
 
+/* Page Preview Options dialog */
+#mwe-popups-settings {
+    background-color: #333 !important;
+}
+
+#mwe-popups-settings main form label > span {
+    color: #fff !important;
+}
+
+.mw-ui-icon-popups-close::before {
+    filter: invert(100%) !important;
+}
+
+.mwe-popups-overlay {
+    background-color: rgba(0,0,0,0.6);
+}
+
 /* Fixes for mobile view */
 #mw-mf-page-center {
     background: none !important;
