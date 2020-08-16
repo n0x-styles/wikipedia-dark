@@ -815,6 +815,10 @@ div.navpopup {
     font-size: 15px !important;
 }
 
+#pt-anonuserpage {
+    color: #ddd !important;
+}
+
 #pt-userpage a {
     background-position: 0 11px !important;
     padding-left: 20px !important;
