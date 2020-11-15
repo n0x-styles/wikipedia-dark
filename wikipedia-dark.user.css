@@ -425,6 +425,10 @@
         border-width: 1px !important;
     }
 
+    .quotebox-title {
+        background-color: #444 !important
+    }
+
     #searchInput,
     #searchLanguage,
     #langsearch-input {
