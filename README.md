@@ -13,6 +13,7 @@ You can buy me a ☕️ by using the donation button on this [page](https://user
 
 Or via Bitcoin here: 112r8akXCYEjqjtUJEn1kgt1FjgZLseEvq
 
+I also support Brave Rewards' **Basic Attention Token**, which is making it easier to tip creators!
 
 Thanks a lot!
 
