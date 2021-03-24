@@ -15,7 +15,7 @@
 
 @-moz-document domain('wikipedia.org')
 {
-body {
+    body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
         color: #ddd;
         background-color: #222 !important;
@@ -963,50 +963,79 @@ body {
         background-color: #2B2B2B !important;
     }
 
-    kbd
-{background-image: -webkit-linear-gradient(top, #333, #111, #333)!important;
-    -webkit-box-shadow: 0.1em 0.2em 0.2em #111!important;
-    border: 1px solid #555!important;}
+    kbd {
+	background-image: -webkit-linear-gradient(top, #333, #111, #333)!important;
+        -webkit-box-shadow: 0.1em 0.2em 0.2em #111!important;
+        border: 1px solid #555!important;
+    }
 
-div[style*="background:#ccc"]
-{background:#333!important}
-	.cta-holder{
-		background-color:#333;}
-	#NewarticletextNS>div{
-		background-color:#333 !important;}
-	select{
-		/*selects are notoriousely hard to style, so I just put an 0.8 invert overt it. 
-		  It looks fine I guess, but a better solution should be found*/
-		filter:invert(0.8);}
-	.oo-ui-textInputWidget .oo-ui-inputWidget-input{
-		background-color:#444;
-		color:#FFF;}
-	.warningbox{
-		background-color:#443;}
-	/* Wikieditor */
-	.wikiEditor-ui-toolbar{
-		background-color:#444;}
-	.wikiEditor-ui-toolbar .tabs span.tab a,
-	.wikiEditor-ui-toolbar .tabs span.tab a:visited{
-		background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="m5 4 4 4-4 4 1 1 5-5-5-5z" fill="%23FFF"/></svg>');}
-	.mw-editform #wpTextbox1{
-		background-color:#333;}
-	.menuSwitcher{
-		background-color:#333 !important;}
-	.editMenus-button{
-		background-color:#444;
-		border:outset 2px #888;
-		border-radius:0.25em;}
-	.menuSwitcher-help-button,
-	.menuSwitcher-help-button:hover,
-	.menuSwitcher-hide-button,
-	.menuSwitcher-hide-button:hover{
-		color:#FFF !important;}
-	.oo-ui-popupToolGroup-handle>span{
-		filter:invert(1);}
-	.oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle:hover{
-		background-color:#222;}
+    div[style*="background:#ccc"] {
+	background:#333!important
+    }
+
+    .cta-holder {
+	background-color:#333;
+    }
+
+    #NewarticletextNS>div {
+	background-color:#333 !important;
+    }
+
+    select {
+	/*selects are notoriousely hard to style, so I just put an 0.8 invert overt it. 
+	It looks fine I guess, but a better solution should be found */
+	filter:invert(0.8);
+    }
     
+    .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+        background-color:#444;
+        color:#FFF;
+    }
+
+    .warningbox {
+        background-color:#443;
+    }
+    
+    /* Wikieditor */
+
+    .wikiEditor-ui-toolbar {
+        background-color:#444;
+    }
+
+    .wikiEditor-ui-toolbar .tabs span.tab a,
+    .wikiEditor-ui-toolbar .tabs span.tab a:visited {
+        background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="m5 4 4 4-4 4 1 1 5-5-5-5z" fill="%23FFF"/></svg>');
+    }
+    
+    .mw-editform #wpTextbox1 {
+        background-color:#333;
+    }
+    
+    .menuSwitcher {
+        background-color:#333 !important;
+    }
+    
+    .editMenus-button {
+        background-color:#444;
+        border:outset 2px #888;
+        border-radius:0.25em;
+    }
+    
+    .menuSwitcher-help-button,
+    .menuSwitcher-help-button:hover,
+    .menuSwitcher-hide-button,
+    .menuSwitcher-hide-button:hover {
+        color:#FFF !important;
+    }
+    
+    .oo-ui-popupToolGroup-handle>span {
+        filter:invert(1);
+    }
+    
+    .oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle:hover {
+        background-color:#222;
+    }
+	
     /* Central Notice Banner */
 
     .cnotice {
@@ -1019,8 +1048,9 @@ div[style*="background:#ccc"]
         filter: invert(100%);
     }
     
-    div[style*="background:#FCFCFC"]
-{background:#263F1E!important}
+    div[style*="background:#FCFCFC"] {
+	    background:#263F1E !important
+    }
 
     /* Preferences */
 
