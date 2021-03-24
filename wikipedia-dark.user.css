@@ -15,7 +15,7 @@
 
 @-moz-document domain('wikipedia.org')
 {
-    body {
+body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
         color: #ddd;
         background-color: #222 !important;
@@ -352,6 +352,7 @@
     }
 
     .mwe-popups,
+    .mwe-popups-container,
     div.navpopup {
         background-color: #333 !important;
         font-size: 16px !important;
@@ -463,7 +464,7 @@
         border-width: 0px !important;
     }
 
-    #content {
+    div#content.mw-body {
         color: #ddd !important;
         border: 0px !important;
         margin-left: 215px !important;
@@ -1055,6 +1056,19 @@ div[style*="background:#ccc"]
         background-image: none !important;
     }
 
+    .mw-logo-container, .mw-ui-icon, .searchButton {
+        filter: invert(100%);
+    }
+
+    .mw-article-toolbar-container {
+        background-color: #333 !important;
+    }
+
+    #mw-head {
+        background-color: #222 !important;
+        border: none !important;
+    }
+
     .bandeau-section {
         background-color: #333 !important;
         border: 1px solid #666 !important;
@@ -1063,6 +1077,11 @@ div[style*="background:#ccc"]
     .autres-projets {
         background-color: #333 !important;
         border: 1px solid #666 !important;
+    }
+
+    .mw-page-container {
+        background-color: #222 !important;
+        border: none;
     }
     
     /* Minor fixes */
