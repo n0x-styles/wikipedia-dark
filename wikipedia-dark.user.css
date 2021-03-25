@@ -969,27 +969,27 @@
     }
 
     kbd {
-	background-image: -webkit-linear-gradient(top, #333, #111, #333)!important;
+	    background-image: -webkit-linear-gradient(top, #333, #111, #333)!important;
         -webkit-box-shadow: 0.1em 0.2em 0.2em #111!important;
         border: 1px solid #555!important;
     }
 
     div[style*="background:#ccc"] {
-	background:#333!important
+	    background:#333!important
     }
 
     .cta-holder {
-	background-color:#333;
+	    background-color:#333;
     }
 
     #NewarticletextNS>div {
-	background-color:#333 !important;
+	    background-color:#333 !important;
     }
 
     select {
-	/*selects are notoriousely hard to style, so I just put an 0.8 invert overt it. 
-	It looks fine I guess, but a better solution should be found */
-	filter:invert(0.8);
+        /*selects are notoriousely hard to style, so I just put an 0.8 invert overt it. 
+        It looks fine I guess, but a better solution should be found */
+        filter:invert(0.8);
     }
     
     .oo-ui-textInputWidget .oo-ui-inputWidget-input {
@@ -1121,8 +1121,18 @@
     
     .mw-widget-dateInputWidget-handle,
     .oo-ui-widget,
-    .legendtextlike {
+    .legendtextlike,
+    .wvui-input__input,
+    .wvui-button,
+    .wvui-typeahead-search__suggestion,
+    .wvui-typeahead-suggestion__title,
+    .wvui-typeahead-search__suggestions__footer {
         background-color: #333 !important;
+        color: #ddd !important;
+    }
+    
+    .wvui-typeahead-suggestion__thumbnail {
+        background-color: #aaa !important; /* Temporary filling while fixing the thumbnail previews in searchbar */
     }
     
     #mw-panel.mw-sidebar {
