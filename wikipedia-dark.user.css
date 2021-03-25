@@ -362,6 +362,33 @@
         background: #333 !important;
     }
 
+    /* Reference tooltips */
+    
+    .rt-tooltip {
+        background-color: #333 !important;
+        border: 1px solid #888 !important;
+    }
+
+    .rt-tooltipTail::after {
+        background: #333 !important;
+    }
+
+    .mwe-popups-extract:after {
+        background: transparent !important;
+    }
+
+    .mwe-popups-settings-icon:hover {
+        background-color: #222 !important;
+    }
+
+    .mwe-popups.flipped-y:after {
+        border-top: 11px solid #333 !important;
+    }
+
+    .mwe-popups.mwe-popups-no-image-pointer:after {
+        border-bottom: 11px solid #333 !important;
+    }
+
     .mw-headline {
         color: #ddd !important;
     }
@@ -987,7 +1014,7 @@
     }
 
     select {
-        /*selects are notoriousely hard to style, so I just put an 0.8 invert overt it. 
+        /* Selects are notoriousely hard to style, so I just put an 0.8 invert over it. 
         It looks fine I guess, but a better solution should be found */
         filter:invert(0.8);
     }
@@ -1068,24 +1095,17 @@
         color: #ededed;
     }
 
-    /* German version */
-
-    #hauptseite h2 {
-        background: inherit;
-        border: none;
-    }
-
-    #hauptseite .inhalt {
-        background: inherit;
-        border: none;
+    /* Minor fixes */
+    .app-badges .footer-sidebar-content {
+        background-color: #222222 !important;
     }
     
-    #qualitaetssicherungstext {
-        background-color: #444 !important;
-        border: 1px solid #666 !important;
+    .mw-mmv-info-box {
+        background-color: #111 !important;
     }
-
-    /* French version */
+}
+@-moz-document domain("fr.wikipedia.org"), domain("fr.m.wikipedia.org") {
+        /* French version */
 
     #accueil_2017_en-tete {
         background-image: none !important;
@@ -1142,13 +1162,23 @@
     .bloc {
         background-color: #444 !important;
     }
+}
+@-moz-document domain("de.wikipedia.org"), domain("de.m.wikipedia.org") {
     
-    /* Minor fixes */
-    .app-badges .footer-sidebar-content {
-        background-color: #222222 !important;
+    /* German version */
+
+    #hauptseite h2 {
+        background: inherit;
+        border: none;
+    }
+
+    #hauptseite .inhalt {
+        background: inherit;
+        border: none;
     }
     
-    .mw-mmv-info-box {
-        background-color: #111 !important;
+    #qualitaetssicherungstext {
+        background-color: #444 !important;
+        border: 1px solid #666 !important;
     }
 }
