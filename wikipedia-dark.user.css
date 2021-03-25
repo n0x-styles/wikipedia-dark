@@ -509,7 +509,8 @@
 
     #mw-head {
         color: #ddd !important;
-        background-color: #3b3b3b;
+        background-color: #222; /* Change the color here for a different theme of header */
+        border-bottom: 1px solid #658195 !important;
         opacity: 1.0;
         box-shadow: 0px 1px 2px #2b2b2b;
         -webkit-transition-property: opacity !important;
@@ -1095,12 +1096,12 @@
     }
 
     .mw-article-toolbar-container {
-        background-color: #333 !important;
+        background: none !important;
     }
 
-    #mw-head {
-        background-color: #222 !important;
-        border: none !important;
+    .mw-body {
+        margin-top: 1px !important;
+        border-top: none;
     }
 
     .bandeau-section {
@@ -1126,6 +1127,10 @@
     
     #mw-panel.mw-sidebar {
         background: #222 !important;
+    }
+    
+    .bloc {
+        background-color: #444 !important;
     }
     
     /* Minor fixes */
