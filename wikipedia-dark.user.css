@@ -389,7 +389,7 @@
     /* More Languages button and modal */
     .mw-interlanguage-selector.mw-ui-button {
         color: #608dff !important;
-        background: #333 url(/w/extensions/UniversalLanguageSelector/resources/images/compact-links-trigger.svg?ebb8e) no-repeat left 4px center !important;
+        background-color: #333 !important;
         border: 0 !important;
         text-align: center !important;
         padding: 4px 8px 4px 26px;
