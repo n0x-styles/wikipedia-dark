@@ -1558,6 +1558,9 @@
 
     .mw-widget-dateInputWidget-handle,
     .oo-ui-widget,
+    .uls-search,
+    .uls-language-list,
+    #uls-settings-block,
     .legendtextlike,
     .wvui-input__input,
     .wvui-button,
@@ -1567,7 +1570,19 @@
         background-color: #333 !important;
         color: #ddd !important;
     }
-
+    
+    #mw-sidebar-button {
+        background-color: #ddd !important;
+    }
+    
+    .mw-ui-button {
+        border: none !important;
+    }
+    
+    #p-personal {
+        filter: invert(90%);
+    }
+    
     .wvui-typeahead-suggestion__thumbnail {
         background-color: #aaa !important; /* Temporary filling while fixing the thumbnail previews in searchbar */
     }
