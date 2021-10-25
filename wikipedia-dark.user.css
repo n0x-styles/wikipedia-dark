@@ -34,7 +34,7 @@
     a:visited {
         color: #637ab5 !important;
     }
-  
+
     .b, div, th {
         color : #fff !important;
     }
@@ -444,9 +444,9 @@
         color: #ddd !important;
         background: transparent !important;
     }
-    
+
     /* Advanced search */
-    
+
     .oo-ui-indicatorElement-indicator.oo-ui-indicator-clear,
     .oo-ui-iconElement-icon.oo-ui-icon-search {
         filter: invert(100%);
@@ -528,7 +528,7 @@
         color: #ddd !important;
         background: transparent !important;
     }
-    
+
     #mw-searchoptions,
     #searchText {
         color: #ddd !important;
@@ -585,7 +585,7 @@
     }
 
     /* Reference tooltips */
-    
+
     .rt-tooltip {
         background-color: #333 !important;
         border: 1px solid #888 !important;
@@ -1253,7 +1253,7 @@
     */
 
     /* Preferences when logged in */
-    
+
     /*
     .oo-ui-tabSelectWidget-framed, .mw-prefs-buttons {
         background-color: #333 !important;
@@ -1262,7 +1262,7 @@
     .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
         background-color: #444 !important;
     }
-    
+
     .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
         background-color: #608dff !important;
         color: #fff !important;
@@ -1373,7 +1373,7 @@
     }
 
     select {
-        /* Selects are notoriousely hard to style, so I just put an 0.8 invert over it. 
+        /* Selects are notoriousely hard to style, so I just put an 0.8 invert over it.
         It looks fine I guess, but a better solution should be found */
         filter:invert(0.8);
     }
@@ -1400,6 +1400,7 @@
 
     .mw-editform #wpTextbox1 {
         background-color:#333;
+        color: white;
     }
 
     .menuSwitcher {
@@ -1438,7 +1439,7 @@
         -webkit-filter: invert(100%);
         filter: invert(100%);
     }
-    
+
     div[style*="background:#FCFCFC"] {
 	    background:#263F1E !important
     }
@@ -1480,7 +1481,7 @@
     .app-badges .footer-sidebar-content {
         background-color: #222 !important;
     }
-    
+
     .mw-mmv-info-box {
         background-color: #111 !important;
     }
@@ -1554,7 +1555,7 @@
         background-color: #222 !important;
         border: none;
     }
-    
+
     .mw-widget-dateInputWidget-handle,
     .oo-ui-widget,
     .legendtextlike,
@@ -1566,15 +1567,15 @@
         background-color: #333 !important;
         color: #ddd !important;
     }
-    
+
     .wvui-typeahead-suggestion__thumbnail {
         background-color: #aaa !important; /* Temporary filling while fixing the thumbnail previews in searchbar */
     }
-    
+
     #mw-panel.mw-sidebar {
         background: #222 !important;
     }
-    
+
     .bloc {
         background-color: #444 !important;
     }
