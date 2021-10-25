@@ -23,6 +23,6 @@ If you don't have any CSS customization add'on for your browser yet, you can che
 You can then install this theme either manually by copy/pasting the code into a new style (you won't get updates), or through userstyles.org (read the next chapter).
 
 ## Download
-If you already have an add'on installed, you can download the latest release of this theme on [userstyles.org](https://userstyles.org/styles/122072/wikipedia-deep-dark-theme).
+If you already have an add'on installed, you can download the latest release of this theme on [userstyles.world](https://userstyles.world/style/1691/wikipedia-deep-dark-theme).
 
 Don't forget to check that page from time to time in order to update your style, or simply use your add'on to batch update all your themes (see [here](https://github.com/openstyles/stylus/wiki/Manager#updates) for Stylus).
