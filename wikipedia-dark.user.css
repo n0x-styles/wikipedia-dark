@@ -1603,14 +1603,13 @@
 @-moz-document domain("de.wikipedia.org"), domain("de.m.wikipedia.org") {
     /* German version */
 
-    #hauptseite h2 {
-        background: inherit;
-        border: none;
+    .hauptseite-box-content {
+        background-color: #333 !important;
+        border-color: #444 !important;
     }
-
-    #hauptseite .inhalt {
-        background: inherit;
-        border: none;
+	
+    .hauptseite-box-title {
+        background-color: #444 !important;
     }
 
     #qualitaetssicherungstext {
