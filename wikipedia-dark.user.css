@@ -1612,7 +1612,7 @@
         background-color: #444 !important;
     }
 
-    #qualitaetssicherungstext {
+    table > * > tr.hintergrundfarbe1 > th, table > * > tr > th.hintergrundfarbe1, table.hintergrundfarbe1, .hintergrundfarbe1  {
         background-color: #444 !important;
         border: 1px solid #666 !important;
     }
