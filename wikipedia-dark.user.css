@@ -1536,6 +1536,15 @@
         height: 40px !important;
     }
 
+    #mw-panel-toc {
+        background-color: #222 !important;
+        border: 1px solid #666 !important;
+    }
+
+    #mw-panel-toc::after {
+        background: none !important;
+    }
+
     .mw-body {
         margin-top: 1px !important;
         border-top: none;
@@ -1589,6 +1598,11 @@
 
     #mw-panel.mw-sidebar {
         background: #222 !important;
+    }
+
+    .uls-lcd, #uls-settings-block, #search.uls-search {
+        background-color: #444 !important;
+        color: #eee !important;
     }
 
     .bloc {
