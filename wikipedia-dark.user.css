@@ -1475,6 +1475,15 @@
     .mwe-popups-overlay {
         background-color: rgba(0, 0, 0, 0.6) !important;
     }
+    
+    /* TOC */
+    .vector-toc-pinned #vector-toc-pinned-container .vector-toc::after {
+        display: none
+    }
+
+    .vector-toc {
+        background-color: #ffffff10;
+    }
 
     /* Minor fixes */
 
