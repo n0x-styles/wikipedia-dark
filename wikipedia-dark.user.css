@@ -247,10 +247,11 @@
         font-size: 15px !important;
     }
 
-    #p-logo a {
+    .mw-logo-icon {
         background-image: var(--wiki-logo) !important;
         background-color: #222 !important;
-        background-size: 125px 150px;
+        background-size: 45px 50px;
+        background-repeat: no-repeat;
     }
 
     .mw-wiki-logo {
@@ -303,6 +304,10 @@
         color: #347Bff !important;
         background: #222 !important;
         text-shadow: 0 0 0;
+    }
+
+    .mw-logo-container, .mw-ui-icon, .searchButton {
+        filter: invert(100%);
     }
 
     .mw-ui-button.mw-ui-progressive:hover,
@@ -788,7 +793,7 @@
         opacity: 1.0;
     }
 
-    #mw-head {
+    #mw-head { /* Deprecated? */
         color: #ddd !important;
         background-color: #2b2b2b; /* Change the color here for a different theme of header */
         border-bottom: 1px solid #666 !important;
@@ -797,6 +802,18 @@
         transition-property: opacity !important;
         transition-duration: 0.25s !important;
         height: 80px !important;
+    }
+
+    .mw-page-container, .vector-header-container, #vector-toc {
+        background-color: #222 !important;
+    }
+
+    #vector-toc::after {
+        background: none !important;
+    }
+
+    .vector-limited-width-popup {
+        background-color: #444 !important;
     }
 
     #mw-head:hover {
@@ -1537,10 +1554,6 @@
         background-image: none !important;
     }
 
-    .mw-logo-container, .mw-ui-icon, .searchButton {
-        filter: invert(100%);
-    }
-
     .mw-article-toolbar-container {
         background: none !important;
     }
@@ -1573,12 +1586,19 @@
         border: 1px solid #666 !important;
     }
 
-    .mw-page-container {
+    .vector-toc {
         background-color: #222 !important;
         border: none;
     }
 
+    .bandeau-container {
+        background-color: #222 !important;
+        color: #ddd !important;
+    }
+    
+    
     .mw-widget-dateInputWidget-handle,
+    .mw-message-box,
     .oo-ui-widget,
     .uls-search,
     .uls-language-list,
@@ -1625,6 +1645,11 @@
     #left-navigation {
         margin-left: 0 !important;
     }
+    
+    .vector-toc, .vector-toc::after {
+        background: #222 !important;
+    }
+    
 }
 
 @-moz-document domain("de.wikipedia.org"), domain("de.m.wikipedia.org") {
