@@ -1155,6 +1155,10 @@
         opacity: 0.85 !important;
     }
 
+    .image img {
+        background-color: #bbb !important;
+    }
+
     .globegris {
         background: transparent !important;
     }
