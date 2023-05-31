@@ -247,13 +247,19 @@
         font-size: 15px !important;
     }
 
+    /* Change Vector 2022 Wikipedia logo */
     .mw-logo-icon {
-        background-image: var(--wiki-logo) !important;
-        background-color: #222 !important;
-        background-size: 45px 50px;
-        background-repeat: no-repeat;
+        content: var(--wiki-logo) !important;
+        width: 3.5rem;
+        height: 4rem;
     }
 
+    /* Remove Vector 2022 Wikipedia title and subtitle */
+    .mw-logo-container {
+        transform: scale(0) !important;
+    }
+
+    /* Vector 2017 logo change */
     .mw-wiki-logo {
         padding-left: 15px !important;
         padding-top: 10px !important;
@@ -300,7 +306,7 @@
 
     .mw-ui-button,
     .mw-ui-progressive {
-        border: 1px solid #888 !important;
+        border: none !important;
         color: #347Bff !important;
         background: #222 !important;
         text-shadow: 0 0 0;
@@ -336,6 +342,7 @@
         background-color: #111 !important;
     }
 
+    .mw-message-box,
     .mw-mmv-dialog,
     .mw-mmv-dialog-down-arrow,
     .mw-mmv-download-attribution,
@@ -347,7 +354,8 @@
     /* End */
 
     /* Language Settings modal */
-    .language-settings-dialog, .languagesettings-menu .menu-section:hover, #uls-display-settings-font-selectors .uls-font-item {
+    .language-settings-dialog, .languagesettings-menu .menu-section:hover, #uls-display-settings-font-selectors .uls-font-item,
+    .uls-menu, .uls-search, .uls-language-list, #uls-settings-block {
         background-color: #333 !important;
     }
 
@@ -1261,7 +1269,8 @@
         padding: 2px !important;
     }
 
-    .oo-ui-window-frame,
+    .module-shortcutboxplain,
+    s.oo-ui-window-frame,
     .oo-ui-popupWidget-popup {
         color: #ddd !important;
         background-color: #444 !important;
@@ -1508,12 +1517,23 @@
 
     /* Minor fixes */
 
-    .app-badges .footer-sidebar-content {
+    .app-badges .footer-sidebar-content,
+    .mw-inputbox-centered,
+    .oo-ui-tagMultiselectWidget-handle,
+    .mw-rcfilters-ui-row {
         background-color: #222 !important;
+    }
+
+    .mw-rcfilters-ui-menuSelectWidget-group, .mw-rcfilters-ui-filterMenuSectionOptionWidget, .mw-changeslist-legend {
+        background-color: #333 !important;
     }
 
     .mw-mmv-info-box {
         background-color: #111 !important;
+    }
+
+    .introtosingle__base {
+        background-color: #555 !important;
     }
 
     :root {
@@ -1598,7 +1618,6 @@
     
     
     .mw-widget-dateInputWidget-handle,
-    .mw-message-box,
     .oo-ui-widget,
     .uls-search,
     .uls-language-list,
@@ -1615,10 +1634,6 @@
     
     #mw-sidebar-button {
         background-color: #ddd !important;
-    }
-    
-    .mw-ui-button {
-        border: none !important;
     }
     
     #p-personal {
