@@ -903,9 +903,11 @@
         color: #888 !important;
     }
 
+    /* Removed for vector 2022
     #left-navigation {
         margin-left: 233px !important;
     }
+    */
 
     .wikitable {
         font-weight: 300 !important;
@@ -971,6 +973,7 @@
     .navbox-odd,
     .navbox-even,
     .hlist,
+    .mp-h2,
     #mp-left h2,
     #mp-right h2,
     #mp-bottom h2,
