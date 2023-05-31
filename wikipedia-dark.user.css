@@ -711,10 +711,18 @@
 
     #searchInput,
     #searchLanguage,
-    #langsearch-input {
+    #langsearch-input,
+    .cdx-menu-item__content, .cdx-typeahead-search__search-footer,
+    .cdx-text-input__input, .cdx-text-input__input--has-value,
+    .cdx-button, .cdx-search-input--has-end-button {
+        color: #bbb !important;
         background-color: #222 !important;
         border-color: #888 !important;
         border-width: 1px !important;
+    }
+
+    .cdx-icon {
+        filter: invert(100%) !important;
     }
 
     .formBtn {
@@ -1184,7 +1192,7 @@
     }
 
     .image img {
-        background-color: #bbb !important;
+        background-color: none !important;
     }
 
     .globegris {
@@ -1485,7 +1493,7 @@
     }
 
     .client-js #preferences legend {
-        color: #ededed;
+        color: #ededed !important;
     }
 
     .mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed {
@@ -1516,6 +1524,10 @@
 
     .vector-toc {
         background-color: #ffffff10;
+    }
+
+    div.vector-toc-text {
+        color: #608dff !important;
     }
 
     /* Minor fixes */
