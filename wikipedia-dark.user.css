@@ -26,6 +26,10 @@
         text-decoration: none;
     }
 
+    b {
+        font-weight: bold;
+    }
+
     a:hover {
         color: #637ab5 !important;
         text-decoration: underline;
