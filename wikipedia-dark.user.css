@@ -1798,3 +1798,56 @@
         border: 1px solid #666 !important;
     }
 }
+
+@-moz-document domain("ru.wikipedia.org"), domain("ru.m.wikipedia.org") {
+    /* Russian version */
+
+
+    #ca-nstab-main {
+        margin-left: 55px !important;
+    }
+
+    #p-logo {
+        background-color: #222 !important;
+        height: 200px !important;
+        margin-top: 30px !important;
+        margin-bottom: -40px !important;
+    }
+
+    .mw-wiki-logo {
+        background-color: #222 !important;
+        background-image: var(--wiki-logo) !important;
+        background-size: 115px !important;
+        margin-left: 20px !important;
+        padding-left: 8rem !important;
+        padding-bottom: 7rem !important;
+        display: inline !important;
+    }
+
+    /* Заглавная страница */
+
+    .main-top {
+        background-color: #333 !important;
+        border: 1px solid #555 !important;
+    }
+
+    .main-top-left {
+        background-image: linear-gradient(to right, #222, #222, transparent) !important;
+    }
+    
+    .main-top-articleCount {
+        background-image: linear-gradient(to left, #333, #333, transparent, transparent) !important;
+    }
+
+    .main-box {
+        background-color: #333 !important;
+        border: 1px solid #555 !important;
+    }
+
+    /* Конец */
+
+    .ts-Врезка, .ts-Скрытый_блок-title {
+        background-color: #444 !important;
+        border: 1px solid #666 !important;
+    }
+}
