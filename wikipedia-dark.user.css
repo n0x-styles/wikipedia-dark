@@ -12,7 +12,7 @@
 
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain('wikipedia.org'), domain("wikimedia.org") {
+@-moz-document domain('wikipedia.org'), domain("wikimedia.org"), domain("wiktionary.org"), domain("wikibooks.org"), domain("wikinews.org"), domain("wikisource.org"), domain("wikivoyage.org") {
 
     body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -1867,8 +1867,8 @@
     }
 }
 
-@-moz-document domain("commons.wikimedia.org") {
-    /* Wikimedia common super quick fixes */
+@-moz-document domain("commons.wikimedia.org"), domain("wiktionary.org"), domain("wikibooks.org"), domain("wikinews.org"), domain("wikisource.org"), domain("wikivoyage.org") {
+    /* Wikimedia Commons super quick fixes */
 
     .mw-wiki-logo {
         filter: invert(87%) !important;
@@ -1878,8 +1878,29 @@
         margin-left: 50px !important;
     }
 
+
     .licensetpl_wrapper, .responsive-license-cc {
         background-color: #333 !important;
         border: 1px solid #555 !important;
+    }
+}
+
+@-moz-document domain("wiktionary.org"){
+    /* Wiktionary super quick fixes */
+
+    h1 {
+        background-color: #2c354f !important;
+    }
+
+    #firstHeading, .boite, .bandeau-voir, .derivedterms {
+        background-color: transparent !important;
+    }
+
+    .mw-body-content h2 {
+        background-color: #2c354f !important;
+    }
+
+    .NavFrame {
+        background-color: #333 !important;
     }
 }
