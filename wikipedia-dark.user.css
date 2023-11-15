@@ -12,8 +12,7 @@
 
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain('wikipedia.org')
-{
+@-moz-document domain('wikipedia.org'), domain("wikimedia.org") {
 
     body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -26,10 +25,6 @@
         text-decoration: none;
     }
 
-    b {
-        font-weight: bold;
-    }
-
     a:hover {
         color: #637ab5 !important;
         text-decoration: underline;
@@ -39,8 +34,12 @@
         color: #637ab5 !important;
     }
 
+    b {
+        font-weight: bold;
+    }
+
     .b, div, th {
-        color : #fff !important;
+        color: #fff !important;
     }
 
     h1 {
@@ -228,7 +227,7 @@
     }
 
     li span {
-        background: transparent !important;
+        background-color: transparent !important;
         border: 0 !important;
         font-size: 14px !important;
     }
@@ -824,7 +823,8 @@
         height: 80px !important;
     }
 
-    .mw-page-container, .vector-header-container, #vector-toc {
+    .mw-page-container, .vector-header-container,
+    .mw-header, .vector-pinned-container, #vector-toc {
         background-color: #222 !important;
     }
 
@@ -1161,7 +1161,7 @@
         border: 0px !important;
     }
 
-    .catlinks {
+    .catlinks, .portal-bar {
         /*
         background: transparent !important;
         border: 1px solid #aaa !important;
@@ -1206,7 +1206,7 @@
     }
 
     .image img {
-        background-color: none !important;
+        background-color: transparent !important;
     }
 
     .globegris {
@@ -1496,7 +1496,6 @@
     }
 
     .cnotice-toggle-box {
-        -webkit-filter: invert(100%);
         filter: invert(100%);
     }
 
@@ -1549,6 +1548,19 @@
         color: #608dff !important;
     }
 
+    .vector-feature-zebra-design-enabled.client-js body.ltr .vector-toc .vector-toc-toggle {
+        border: 0px !important;
+    }
+
+    .vector-pinnable-header-toggle-button {
+        color: white !important;
+        background-color:#333 !important;
+    }
+
+    .vector-toc-toggle {
+        top: 6px !important;
+    }
+
     /* Minor fixes */
 
     .app-badges .footer-sidebar-content,
@@ -1598,7 +1610,7 @@
         background: #444 !important;
     }
 
-    figure, figcaption {
+    figure, figcaption{
         background-color: #333 !important;
         border-color: #555 !important;
     }
@@ -1624,6 +1636,10 @@
     }
 
     #vector-page-tools::after {
+        background: none !important;
+    }
+
+    div.vector-pinned-container::after {
         background: none !important;
     }
 
@@ -1802,7 +1818,6 @@
 @-moz-document domain("ru.wikipedia.org"), domain("ru.m.wikipedia.org") {
     /* Russian version */
 
-
     #ca-nstab-main {
         margin-left: 55px !important;
     }
@@ -1849,5 +1864,22 @@
     .ts-Врезка, .ts-Скрытый_блок-title {
         background-color: #444 !important;
         border: 1px solid #666 !important;
+    }
+}
+
+@-moz-document domain("commons.wikimedia.org") {
+    /* Wikimedia common super quick fixes */
+
+    .mw-wiki-logo {
+        filter: invert(87%) !important;
+    }
+
+    #p-namespaces {
+        margin-left: 50px !important;
+    }
+
+    .licensetpl_wrapper, .responsive-license-cc {
+        background-color: #333 !important;
+        border: 1px solid #555 !important;
     }
 }
