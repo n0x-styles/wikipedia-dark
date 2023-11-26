@@ -20,9 +20,11 @@ Thanks a lot!
 ## Pre-requisites
 If you don't have any CSS customization add'on for your browser yet, you can check out this repository: [Stylus](https://github.com/openstyles/stylus) and install their solution!
 
-You can then install this theme either manually by copy/pasting the code into a new style (you won't get updates), or through userstyles.org (read the next chapter).
-
 ## Download
+You can install this theme by manually copy/pasting the code into a new style (however you won't get new updates) so its recommended to choose one of the options below
+
 If you already have an add'on installed, you can download the latest release of this theme on [userstyles.world](https://userstyles.world/style/1691/wikipedia-deep-dark-theme).
 
-Don't forget to check that page from time to time in order to update your style, or simply use your add'on to batch update all your themes (see [here](https://github.com/openstyles/stylus/wiki/Manager#updates) for Stylus).
+You can also install this theme and get automatic updates directly from this repository (stylus supported) [install](https://github.com/n0x-styles/wikipedia-dark/raw/master/wikipedia-dark.user.css)
+
+~Don't forget to check that page from time to time in order to update your style, or simply use your add'on to batch update all your themes (see [here](https://github.com/openstyles/stylus/wiki/Manager#updates) for Stylus).~
