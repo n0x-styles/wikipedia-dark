@@ -1867,6 +1867,26 @@
     }
 }
 
+@-moz-document domain("es.wikipedia.org"), domain("es.m.wikipedia.org"){
+    /* Spanish Version */
+        .main-top {
+            background-color: #333 !important;
+            border: 1px solid #555 !important;
+        }
+        .main-box{
+            background-color: #333 !important;
+            border: 1px solid #555 !important;
+        }
+        
+        .main-top-left {
+            background-image: linear-gradient(to right, #222, #222, transparent) !important;
+        }
+        
+        .main-top-articleCount {
+            background-image: linear-gradient(to left, #333, #333, transparent, transparent) !important;
+        }
+}
+
 @-moz-document domain("commons.wikimedia.org"), domain("wiktionary.org"), domain("wikibooks.org"), domain("wikinews.org"), domain("wikisource.org"), domain("wikivoyage.org") {
     /* Wikimedia Commons super quick fixes */
 
